@@ -1,4 +1,6 @@
-# Pacomo - A Method For Structuring Stylesheets in React-based Applications
+# A Method For Structuring Stylesheets in React-based Applications
+
+*Read the [introduction](http://jamesknelson.com/a-system-for-structuring-your-react-applications-styles/).*
 
 If you've ever wondered where to put styles, how to choose their selectors, or why one component's styles have somehow affected another's - Pacomo is for you.
 
