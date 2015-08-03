@@ -1,4 +1,4 @@
-# A Method For Structuring Stylesheets in React-based Applications
+# A System For Structuring Stylesheets In React Applications
 
 *Read the [introduction](http://jamesknelson.com/a-system-for-structuring-your-react-applications-styles/).*
 
