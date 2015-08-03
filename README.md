@@ -24,11 +24,11 @@ Pacomo accomplishes this by following three principles:
 
 ### Contents
 
-1. Naming conventions
-2. Dependencies
-3. Project structure
-4. JavaScript authoring guidelines
-5. Stylesheet authoring guidelines
+1. [Naming conventions](#naming-conventions)
+2. [Dependencies](#dependencies)
+3. [Project structure](#project-structure)
+4. [JavaScript guidelines](#javascript-guidelines)
+5. [Stylesheet guidelines](#stylesheet-guidelines)
 
 <a id="naming-conventions"></a>
 
@@ -62,13 +62,13 @@ This example is for a class which adds rounded corners to the above `Paper` comp
 memamug-Paper-rounded
 ```
 
-<a id="dependencies"></a>
-
 #### Choosing names
 
 Your *package name* **should** follow the name in your `package.json`.
 
 Your *component name* **must** be identical to your component's JavaScript class name. This allows us to refer to it programatically using JSX's `displayName`, or `this.constructor.name` with ES6 classes.
+
+<a id="dependencies"></a>
 
 ### 2. Dependencies
 
