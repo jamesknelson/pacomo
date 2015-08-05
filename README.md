@@ -86,7 +86,7 @@ By extension, they **must not** depend on any external stylesheets which include
 
 #### Build system
 
-Following the *Don't Repeat Yourself* principle, Pacomo apps **must** use a CSS pre-processor which supports the `&-` notation; LESS and SASS are good examples.
+Following the *Don't Repeat Yourself* principle, Pacomo apps **must** use a CSS pre-processor which supports the parent selector, using `&` notation; [Less](http://lesscss.org/) and [Sass](http://sass-lang.com/) are good examples.
 
 In addition, your project **must** use a compiler which allows you to include stylesheets directly from your component JavaScript files; Webpack is one example.
 
@@ -161,9 +161,9 @@ For the `Paper` class in the `memamug` package, the component class would follow
 }
 ```
 
-#### Use `&-`
+#### Use Parent Selectors (`&`)
 
-In order to make stylesheets simpler to reason about, all parts of all non-top-level selectors **must** start with `&-`; an operator available in compile-to-CSS languages which works as follows:
+In order to make stylesheets simpler to reason about, all parts of all non-top-level selectors **must** start with a parent selector and a dash (`&-`); this selector is available in compile-to-CSS languages such as Sass and Less, and works as follows:
 
 *Input:*
 
