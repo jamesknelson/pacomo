@@ -198,7 +198,7 @@ This rule has a number of flow-on effects:
 
 These tools are not required by the specification, but may make implementation easier. If you have tools you'd like to add, feel free to make a pull request.
 
-- [react-c](https://github.com/jamesknelson/react-c) - James K Nelson's original implementation
+- [react-pacomo](http://unicornstandard.com/packages/react-pacomo.html) - Automatically add the correct namespaces by transforming your `className` props
 
 ## Contributing
 
