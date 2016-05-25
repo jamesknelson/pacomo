@@ -96,7 +96,7 @@ In addition, your project **must** use a compiler which allows you to include st
 
 #### Components
 
-Each React component **must** have a single stylesheet file, placed in the same directory as it's single JavaScript file.
+Each React component **must** have a single stylesheet file, placed in the same directory as its single JavaScript file.
 
 The stylesheet **should** be required by the JavaScript file using `require()`, or similar.
 
@@ -108,7 +108,7 @@ If present, your *theme* stylesheet **may** be maintained as a separate package 
 
 #### Application
 
-Any styles on raw HTML (i.e. that not managed by React components) **must** be managed by the application, independent of any component styles.
+Any styles on raw HTML (i.e. that are not managed by React components) **must** be managed by the application, independent of any component styles.
 
 <a id="javascript-guidelines"></a>
 
